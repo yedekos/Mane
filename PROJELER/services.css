@@ -1,0 +1,188 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar_ul {
+  display: flex;
+}
+
+.navbar_li {
+  list-style: none;
+  align-items: center;
+  margin-left: 70px;
+}
+
+a {
+  text-decoration: none;
+  color: #414141;
+  line-height: 50px;
+  text-align: center;
+  padding: 0 10px;
+  font: normal normal normal 14px/1.4em;
+}
+
+a:hover {
+  color: #b1d3bb;
+  transition: color 0.4s ease 0s;
+}
+.navbar_li img {
+  width: 193px;
+  height: 74px;
+  object-fit: cover;
+}
+
+.navbar_li img:hover {
+  cursor: pointer;
+}
+
+.navbar_li button {
+  width: 141px;
+  height: 40px;
+  background-color: #15291b;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.navbar_li button:hover {
+  background-color: #407c51;
+  transition: 1s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #407c51;
+
+  transition: 1s;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+}
+
+.main {
+  display: flex;
+  margin-left: 20px;
+  margin-top: 10px;
+  background-color: #fafafa;
+}
+
+.main_2 {
+  width: 40%;
+  margin-left: 150px;
+  margin-top: 50px;
+}
+
+.main_2 h4 {
+  margin-top: 20px;
+}
+
+body {
+  font-family: "Gemunu Libre", sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+
+.paragraf button:hover {
+  background-color: #407c51;
+
+  transition: 0.3s;
+  cursor: pointer;
+  color: white;
+}
+
+.paragraf button {
+  width: 201px;
+  height: 47px;
+  background-color: white;
+  color: #15291b;
+  font-size: 17px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.paragraf {
+  width: 60%;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.ikili_sol button:hover {
+  background-color: #407c51;
+  transition: 0.3s;
+  cursor: pointer;
+  color: white;
+}
+
+.ikili_sol button {
+  width: 196px;
+  height: 52px;
+  background-color: white;
+  color: #15291b;
+  font-size: 17px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.ikili {
+  display: flex;
+  background-color: #fafafa;
+}
+
+.ikili_sol li {
+  margin-bottom: 2.5px;
+}
+
+.ikili_sol {
+  margin-left: 220px;
+}
+
+.treatments {
+  background-color: #fafafa;
+}
+
+.treatments button:hover {
+  background-color: #407c51;
+  transition: 0.3s;
+  cursor: pointer;
+  color: white;
+}
+
+.treatments button {
+  width: 196px;
+  height: 52px;
+  background-color: white;
+  color: #15291b;
+  font-size: 17px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.hairstyling {
+  background-color: #fafafa;
+}
+
+.hairstyling button {
+  width: 196px;
+  height: 52px;
+  background-color: white;
+  color: #15291b;
+  font-size: 17px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.hairstyling button:hover {
+  background-color: #407c51;
+  transition: 0.3s;
+  cursor: pointer;
+  color: white;
+}
+
+footer {
+  background-color: #fafafa;
+}
